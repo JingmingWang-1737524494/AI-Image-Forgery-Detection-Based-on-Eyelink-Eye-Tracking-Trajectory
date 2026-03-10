@@ -21,7 +21,7 @@ The dataset involves **8 participants (labeled 2–9)** who each viewed **30 ran
 | CURRENT_FIX_INDEX         | Integer | Sequential index of the fixation within the current trial                   |
 | CURRENT_FIX_PUPIL         | Integer | Pupil size during the current fixation (arbitrary units)                   |
 | CURRENT_FIX_DURATION      | Integer | Duration of the current fixation (in milliseconds)                           |
-| IS_FAKE                   | Integer | Image authenticity label (1 = AI-generated fake image, 0 = real image)       |
+| IS_AI                   | Integer | Image authenticity label (1 = AI-generated fake image, 0 = real image)       |
 
 The 30 plant/animal images presented in random order during the experiment are available at the following link (https://huggingface.co/datasets/JingmingWang/AI-generated-Image-Detection/blob/main/dzw_picture.zip).
 - File naming: `dzw-{TRIAL_INDEX}.png` (e.g., `dzw-1.png` corresponds to TRIAL_INDEX=1)
