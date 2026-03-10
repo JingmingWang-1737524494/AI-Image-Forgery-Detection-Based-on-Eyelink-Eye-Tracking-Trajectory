@@ -3,7 +3,7 @@
 
 https://huggingface.co/datasets/JingmingWang/AI-generated-Image-Detection/blob/main/dataset.zip
 
-A standardized image dataset (150 images total) was built under the principle of same semantics with different sources, controlling semantic and visual consistency to avoid irrelevant variable interference. It included 100 AI-generated images (Doubao, ByteDance Inc., China; Kimi, Moonshot AI Inc., China) and 50 real photography images sourced from Pexels (https://www.pexels.com/zh-cn/), covering five categories: natural scenery(zrfg), portrait(rwxx), animals and plants(dzw), food still life(nsjw), and daily life(shcj) scenes. For each category, both models generated 10 images respectively with a unified prompt framework, and 10 real images were screened for semantic alignment
+A standardized image dataset (150 images total) was built under the principle of same semantics with different sources, controlling semantic and visual consistency to avoid irrelevant variable interference. It included 100 AI-generated images (Doubao, ByteDance Inc., China; Kimi, Moonshot AI Inc., China) and 50 real photography images sourced from Pexels (https://www.pexels.com/zh-cn/), covering five categories: natural scenery(zrfg), portrait(rwxx), animals and plants(dzw), food still life(msjw), and daily life(shcj) scenes. For each category, both models generated 10 images respectively with a unified prompt framework, and 10 real images were screened for semantic alignment
 
 ## Our eye-tracking data were collected using an **Eyelink 1000 Plus** system.
 
