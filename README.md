@@ -24,6 +24,9 @@ The dataset involves **8 participants (labeled 2–9)** who each viewed **30 ran
 | IS_AI                   | Integer | Image authenticity label (1 = AI-generated fake image, 0 = real image)       |
 
 The 30 plant/animal images presented in random order during the experiment are available at the following link (https://huggingface.co/datasets/JingmingWang/AI-generated-Image-Detection/blob/main/dzw_picture.zip).
+
+The images displayed during the experiment differ slightly from the original dataset. They were resized and stretched from the original 4:3 aspect ratio to 16:9, with all pixels uniformly adjusted to a resolution of 1920×1080.
+
 - File naming: `dzw-{TRIAL_INDEX}.png` (e.g., `dzw-1.png` corresponds to TRIAL_INDEX=1)
 - Content: Mixed set of real and AI-generated plant/animal photos
 - Purpose: Visual stimuli for the eye-tracking experiment
